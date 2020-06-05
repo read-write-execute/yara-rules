@@ -2,7 +2,7 @@ rule URL_binary   // this rule can be helpful when it comes to detect malacious 
 {
     meta:
         description = "THIS RULE CAN FIND BINARIES THAT HAVE MORE THAN 3 URLS"
-        author = "sonumadnal"
+        author = "read_write_execute"
         date = "2020-06-03"
 
     strings:
