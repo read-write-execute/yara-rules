@@ -1,7 +1,7 @@
-rule URL_binary   
+rule URL_binary   // this rule can be helpful when it comes to detect malacious C2 channels 
 {
     meta:
-        description = "YARA RULE THAT CAN FIND BINARIES THAT HAVE MORE THAN 3 URLS"
+        description = "THIS RULE CAN FIND BINARIES THAT HAVE MORE THAN 3 URLS"
         author = "sonumadnal"
         date = "2020-06-03"
 
