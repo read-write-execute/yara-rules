@@ -7,6 +7,7 @@ rule Malicious_Api {
         author = "sonumandal"
         date = "2020-06-20"
         reference = "https://www.winitor.com/"
+        //This Rule can also detect False positive you can tune the condition as per your need 
 
    strings:
        $name1 = "EnumerateLocalComputerNames"    // Kernel32.dll    
