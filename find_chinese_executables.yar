@@ -10,7 +10,7 @@ rule find_chinese_executables {
     meta:
         description = "YARA Rule That Can Find Chinese Executables"
         author = "sonumandal"
-        date = "2020-06-10"
+        date = "2021-09-02"
         reference = "https://bit.ly/2XNA3cc" 
 
     condition:
